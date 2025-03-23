@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_LogicOperatorsIfElse", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_Array", "04_Array\04_Array.vcxproj", "{BF820B68-1A6B-4E76-8AAA-53429728BA15}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_Matrix", "05_Matrix\05_Matrix.vcxproj", "{530E57B2-5515-4FF0-A9F6-03DB77C0A8BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{BF820B68-1A6B-4E76-8AAA-53429728BA15}.Release|x64.Build.0 = Release|x64
 		{BF820B68-1A6B-4E76-8AAA-53429728BA15}.Release|x86.ActiveCfg = Release|Win32
 		{BF820B68-1A6B-4E76-8AAA-53429728BA15}.Release|x86.Build.0 = Release|Win32
+		{530E57B2-5515-4FF0-A9F6-03DB77C0A8BB}.Debug|x64.ActiveCfg = Debug|x64
+		{530E57B2-5515-4FF0-A9F6-03DB77C0A8BB}.Debug|x64.Build.0 = Debug|x64
+		{530E57B2-5515-4FF0-A9F6-03DB77C0A8BB}.Debug|x86.ActiveCfg = Debug|Win32
+		{530E57B2-5515-4FF0-A9F6-03DB77C0A8BB}.Debug|x86.Build.0 = Debug|Win32
+		{530E57B2-5515-4FF0-A9F6-03DB77C0A8BB}.Release|x64.ActiveCfg = Release|x64
+		{530E57B2-5515-4FF0-A9F6-03DB77C0A8BB}.Release|x64.Build.0 = Release|x64
+		{530E57B2-5515-4FF0-A9F6-03DB77C0A8BB}.Release|x86.ActiveCfg = Release|Win32
+		{530E57B2-5515-4FF0-A9F6-03DB77C0A8BB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
