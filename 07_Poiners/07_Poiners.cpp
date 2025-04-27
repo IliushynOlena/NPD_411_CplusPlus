@@ -10,13 +10,13 @@ void ChangeValue(int* a)// 0x125
 {
 	(*a)++; 
 }
-int FindMax(int a, int b, int c)
+int FindMax(int a, int b, int c)//a = 5, b = 7, c = 9
 {
 	if (a > b && a > c)
-		return a;
+		return a;//5
 	if (b > c && b > a)
-		return b;
-	return c;
+		return b;//7
+	return c;//9
 }
 int* FindMax(int *a, int *b, int *c)
 {
@@ -93,20 +93,20 @@ int main()
 
 	ChangeValue(&a);
 	cout << "a = " << a << endl;
-	//int a = 5;
-	//int b = 10;
-	//cout << a << endl;
-	//cout << b << endl;
+	int a = 5;
+	int b = 10;
+	cout << a << endl;
+	cout << b << endl;
 
-	////pointers 
-	//int* pa = &a;
-	//int* pb = &b;
-	//cout << "address a = "<< pa << endl;
-	//cout << "address b = " << pb << endl;
-	//cout << "a = "<<  * pa << endl;
-	//cout << "b = "<<  * pb << endl;
-	//cout << "summa = " << a + b << endl;
-	//cout << "summa = " << *pa + *pb << endl;
+	//pointers 
+	int* pa = &a;
+	int* pb = &b;
+	cout << "address a = "<< pa << endl;
+	cout << "address b = " << pb << endl;
+	cout << "a = "<<  * pa << endl;
+	cout << "b = "<<  * pb << endl;
+	cout << "summa = " << a + b << endl;
+	cout << "summa = " << *pa + *pb << endl;
 
 	//pa = &b;
 	//*pa += 2;
