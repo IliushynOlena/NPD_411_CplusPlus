@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09_SetPos_SetColor_Setw", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_Dynamic_memory", "10_Dynamic_memory\10_Dynamic_memory.vcxproj", "{3657D688-D9A5-46B3-BCCB-12EB31313422}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11_TwoDementionDynamicArr", "11_TwoDementionDynamicArr\11_TwoDementionDynamicArr.vcxproj", "{90DEBE6B-1AFF-46E7-9634-DA7C26F835BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{3657D688-D9A5-46B3-BCCB-12EB31313422}.Release|x64.Build.0 = Release|x64
 		{3657D688-D9A5-46B3-BCCB-12EB31313422}.Release|x86.ActiveCfg = Release|Win32
 		{3657D688-D9A5-46B3-BCCB-12EB31313422}.Release|x86.Build.0 = Release|Win32
+		{90DEBE6B-1AFF-46E7-9634-DA7C26F835BD}.Debug|x64.ActiveCfg = Debug|x64
+		{90DEBE6B-1AFF-46E7-9634-DA7C26F835BD}.Debug|x64.Build.0 = Debug|x64
+		{90DEBE6B-1AFF-46E7-9634-DA7C26F835BD}.Debug|x86.ActiveCfg = Debug|Win32
+		{90DEBE6B-1AFF-46E7-9634-DA7C26F835BD}.Debug|x86.Build.0 = Debug|Win32
+		{90DEBE6B-1AFF-46E7-9634-DA7C26F835BD}.Release|x64.ActiveCfg = Release|x64
+		{90DEBE6B-1AFF-46E7-9634-DA7C26F835BD}.Release|x64.Build.0 = Release|x64
+		{90DEBE6B-1AFF-46E7-9634-DA7C26F835BD}.Release|x86.ActiveCfg = Release|Win32
+		{90DEBE6B-1AFF-46E7-9634-DA7C26F835BD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

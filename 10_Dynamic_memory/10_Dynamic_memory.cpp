@@ -48,9 +48,22 @@ int* AddNumber(int* arr, int *size, int number)
     arr = temp;
     return arr;
 }
-void AddByPosition(int* arr, int* size, int number, int pos)
+int* AddByPosition(int* arr, int* size, int number, int pos)
 {
-
+    (*size)++;
+    int* temp = new int[*size];
+    for (int i = 0; i < pos; i++)
+    {
+        temp[i] = arr[i];
+    }
+    temp[pos] = number;
+    for (int i = pos; i < *size; i++)
+    {
+        temp[i + 1] = arr[i];
+    }
+    delete[]arr;
+    arr = temp;
+    return arr;
 }
 int main()
 {
@@ -77,6 +90,13 @@ int main()
         system("cls");
         ShowArr(arr, size);
     }
+    number = 100;
+    arr = AddByPosition(arr, &size, number,2);
+    system("cls");
+    ShowArr(arr, size);
+    arr = AddByPosition(arr, &size, number, 4);
+    system("cls");
+    ShowArr(arr, size);
     delete[]arr;
   /*  int a = 10;
 
