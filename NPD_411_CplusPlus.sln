@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12_C-StyleRows", "12_C-Styl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13_Struct", "13_Struct\13_Struct.vcxproj", "{F6A6A29F-7E70-4DB7-8E31-888127F5A81F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14_StructInFunction", "14_StructInFunction\14_StructInFunction.vcxproj", "{F7BC20D4-827C-4B14-A2FC-E3EA8939C995}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{F6A6A29F-7E70-4DB7-8E31-888127F5A81F}.Release|x64.Build.0 = Release|x64
 		{F6A6A29F-7E70-4DB7-8E31-888127F5A81F}.Release|x86.ActiveCfg = Release|Win32
 		{F6A6A29F-7E70-4DB7-8E31-888127F5A81F}.Release|x86.Build.0 = Release|Win32
+		{F7BC20D4-827C-4B14-A2FC-E3EA8939C995}.Debug|x64.ActiveCfg = Debug|x64
+		{F7BC20D4-827C-4B14-A2FC-E3EA8939C995}.Debug|x64.Build.0 = Debug|x64
+		{F7BC20D4-827C-4B14-A2FC-E3EA8939C995}.Debug|x86.ActiveCfg = Debug|Win32
+		{F7BC20D4-827C-4B14-A2FC-E3EA8939C995}.Debug|x86.Build.0 = Debug|Win32
+		{F7BC20D4-827C-4B14-A2FC-E3EA8939C995}.Release|x64.ActiveCfg = Release|x64
+		{F7BC20D4-827C-4B14-A2FC-E3EA8939C995}.Release|x64.Build.0 = Release|x64
+		{F7BC20D4-827C-4B14-A2FC-E3EA8939C995}.Release|x86.ActiveCfg = Release|Win32
+		{F7BC20D4-827C-4B14-A2FC-E3EA8939C995}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
