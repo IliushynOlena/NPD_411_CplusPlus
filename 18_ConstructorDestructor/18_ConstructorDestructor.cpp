@@ -43,7 +43,7 @@ public:
 	//default constructor
 	Student()
 	{
-		cout << "Constructor" << endl;
+		cout << "default Constructor" << endl;
 		fullname.name = "no name";
 		fullname.lastname = "no lastname";
 		fullname.surname = "no surname";
@@ -119,7 +119,27 @@ public:
 		this->countMark = 0;
 		this->averageMark = 0;
 	}
-
+	Student(const Student & other)
+	{
+		cout << "Copy Constructor" << endl;
+		this->fullname = other.fullname;  ///Olena ---> Olena
+		this->birthdate = other.birthdate; // 15  ---> 15
+		this->phone = other.phone;        // +38097564 ---> +38097564
+		this->city = other.city;
+		this->country = other.country;
+		this->university = other.university;
+		this->city_university = other.city_university;
+		this->country_university = other.country_university;
+		this->group = other.group;
+		this->countMark = other.countMark;
+		//this->marks = other.marks;//0x14788   ---> 0x14788
+		this->marks = new int[countMark];
+		for (int i = 0; i < countMark; i++)
+		{
+			this->marks[i] = other.marks[i];
+		}
+		this->averageMark = other.averageMark;
+	}
 	void setName(string name)
 	{
 		fullname.name = name;
@@ -237,6 +257,10 @@ int main()
 	st3.AddMark(11);
 	st3.AddMark(11);
 	st3.Print();
+
+	cout << "-------------- Copy student --------------" << endl;
+	Student copy(st3);
+	copy.Print();
 
 
 
