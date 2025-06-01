@@ -42,7 +42,7 @@ void AddGameToPlayer(Player& pl, int goals = 0)
 
 class Player
 {
-protected:
+private:
     string name;
     short age;
     int games;
@@ -68,6 +68,7 @@ public:
         this->goals += goals;
     }
 };
+
 class FootbalPlayer : public Player
 {
     void Test()
